@@ -7,6 +7,7 @@ a toy os
 rustup override add nightly
 rustup override set nightly
 rustup component add llvm-tools-preview
+rustup component add rust-src
 cargo install bootimage
 ```
 
